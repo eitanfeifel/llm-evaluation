@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",               // Use "commonjs" if you don't need ES modules
+      "esModuleInterop": true,            // Enable ES module interoperability
+      "target": "es6",                    // Target modern JavaScript
+      "strict": true,                     // Enable strict type-checking
+      "outDir": "./dist",                 // Specify the output directory for compiled files
+      "skipLibCheck": true                // Skip type checking of declaration files
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["node_modules", "dist"]
+  }
+  

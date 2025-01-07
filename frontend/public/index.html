@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Evaluation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-window">
+            <h1>Evaluate a Prompt:</h1>
+            <form id="promptForm">
+                <div class="input-group">
+                    <label for="task">Task:</label>
+                    <input type="text" id="task" placeholder="Enter task (e.g., Medical Advising)" required>
+                </div>
+                <div class="input-group">
+                    <label for="prompt">Prompt:</label>
+                    <input type="text" id="prompt" placeholder="Type your prompt here..." required>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <div id="responseContainer" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Dynamic slides will be inserted here -->
+                </div>
+                <!-- Swiper navigation buttons -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>console.log('running')</script>
+    <script src="/scripts.js"></script>
+</body>
+</html>
